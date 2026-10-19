@@ -17,6 +17,11 @@ main{padding:48px 0 64px}h2{font-size:22px;margin:0 0 20px}
 .links{display:flex;gap:10px}.btn{font-size:14px;padding:7px 14px;border-radius:8px;text-decoration:none;background:var(--acc);color:#04210f;font-weight:600}
 .btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}.btn:hover{filter:brightness(1.1)}
 footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:14px}
+.about{border-top:1px solid var(--line);padding:44px 0}.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}.panel h2{font-size:19px;margin:0 0 12px}.panel p{color:var(--muted);margin:0 0 16px}
+.updates{list-style:none;margin:0;padding:0}.updates li{display:grid;grid-template-columns:140px 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--line);font-size:15px}.updates li:first-child{border-top:0;padding-top:0}
+.updates time{color:var(--acc);font-size:13px;padding-top:2px}.updates a{font-weight:600;text-decoration:none}.updates a:hover{color:var(--acc2)}.updates span{color:var(--muted)}
+@media(max-width:480px){.updates li{grid-template-columns:1fr;gap:2px}}
 </style></head><body>
 <header><div class="wrap"><div class="top"><img class="avatar" src="https://avatars.githubusercontent.com/u/15088150?v=4" alt="pacobaco avatar">
 <div><h1>jwookie2</h1><div class="co">Saga Dog Corp · Miami, FL</div></div></div>
@@ -54,5 +59,16 @@ footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-s
 <div class="meta"><span class="lang">Python</span><span></span><span>Updated 2026-04-15</span></div>
 <div class="links"><a class="btn ghost" href="https://github.com/pacobaco/navstone">Code</a></div></article>
 </div></main>
+<section class="about"><div class="wrap two">
+<div class="panel" id="about"><h2>About Saga Dog Corp</h2>
+<p>Saga Dog Corp is a Miami, FL company led by its President, a research developer. Its work spans AI systems and security, open source intelligence, and research development, shared openly on GitHub.</p>
+<div class="chips"><a class="chip" href="https://github.com/pacobaco">Contact on GitHub @pacobaco</a><a class="chip" href="https://www.ecoquipr.com">www.ecoquipr.com</a></div></div>
+<div class="panel" id="updates"><h2>Recent updates</h2><ul class="updates">
+<li><time>October 8, 2026</time><div><a href="https://github.com/pacobaco/NERexchange/commit/7ee69e127756133d0a893efdb1956070796f957b">NERexchange</a> <span>— Added a demo script showing how to use NER Exchange</span></div></li>
+<li><time>September 22, 2026</time><div><a href="https://github.com/pacobaco/Perptv/commit/5b876acd99989bb16c0f6ab03eca916088de21ef">Perptv</a> <span>— Added an Nginx configuration for the TV streaming service</span></div></li>
+<li><time>September 17, 2026</time><div><a href="https://github.com/pacobaco/PerpRadio/commit/74e6fc6b7ee0ebdd8642056e7f817bcfa8346377">PerpRadio</a> <span>— Uploaded new project files</span></div></li>
+<li><time>September 7, 2026</time><div><a href="https://github.com/pacobaco/Aether/commit/03d78c4b01bf88b3de8e6e70130459601623c4ce">Aether</a> <span>— Added a registry of digital source types and templates</span></div></li>
+<li><time>September 5, 2026</time><div><a href="https://github.com/pacobaco/github-ranker/commit/633e79791ac4be82e4cee84e4a48398f107165b2">github-ranker</a> <span>— Uploaded new project files</span></div></li>
+</ul></div></div></section>
 <footer><div class="wrap">© Saga Dog Corp · Projects from <a href="https://github.com/pacobaco">github.com/pacobaco</a></div></footer>
 </body></html>
